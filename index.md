@@ -59,7 +59,7 @@ layout: page
 
   Be responsible for the development of the logic analyzer. We complete a high performance, fast response instruments.
 
-  The main contribution are:
+  The main contributions are:
 
 * Improve development efficiency by use of `chromium base` and `ipc` library.
 * Use `MessagePool` and `Task` multithreaded programming skills, reducing the use of mutex.
