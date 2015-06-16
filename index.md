@@ -37,7 +37,7 @@ layout: page
   The main responsibilities are:
 
   * Implement and test the `Exchange` protocol API.
-  * Archive the sqlite ORM that make the upper layer user more convenient and more Object-Oriented.
+  * achieve the sqlite ORM that make the upper layer user more convenient and more Object-Oriented.
   * Optimize the message download speed and reduce the number of requests.
   * Reduce database reads count and improve performance by LRU cache algorithm.
   * Use `Promise/Yield` asynchronous programming model, to avoid nested callback.
@@ -52,8 +52,8 @@ layout: page
 
   * Set up the development environment, use `pybuilder` for automation integration, `flake8` for the code lint, `pip` and `setuptools` to specify the program dependencies.
   * Use `mongodb` database and `motor` as `mongodb` asynchronous driver library.
-  * Designe Restful API interface.
-  * Use the MVC design pattern, to make the app more flexible and more logical.
+  * Design Restful API interface.
+  * Use the MVC design pattern to make the app more flexible and more logical.
 
 ### Zhiyuan Electronics(2012.7 - 2014.4)
 
@@ -61,9 +61,9 @@ layout: page
 
   The main contributions are:
 
-* Improve development efficiency by use of `chromium base` and `ipc` library.
-* Use `MessagePool` and `Task` multithreaded programming skills, reducing the use of mutex.
-* Make use data caching to optimize data storage, improve performance and IO performance.
+* Improve development efficiency by using of `chromium base` and `ipc` library.
+* Use `MessagePool` and `Task` multithreaded programming skills to reduce the use of mutex.
+* utilize data cache to optimize data storage and improve IO performance.
 
 # Open source works
 
@@ -78,42 +78,42 @@ layout: page
 
 * `generator-node-gulp-coffee`
 
-  Generate the template `Nodejs` project that use `coffee`and `gulp`，it used by many nodejs module.(integrate `lint`、`test`、`converage`、`Travis CI` and other features)。
+  Generate the template `Nodejs` projects that use `coffee`and `gulp`. It used by many nodejs module.(integrate `lint`、`test`、`converage`、`Travis CI` and other features)。
 
 * `generator-karma-browserify`
 
-  Add `karma` and `browserify` support for the web App。`browserify` make the front-end js can use `Nodejs` module，`karma` make the web app integration test more simple.
+  Add `karma` and `browserify` support for the web App. `browserify` enables the use of `Nodejs` module for the front-end js，`karma` make the web app integration test simpler.
 
 ### http-ext
 
-`http-ext` is a scalable, high flexibility http client library. It develops inspired by the `express`。Core contains only the basic framework, other features and extensions can be increased by plug-ins. Currently contains the following plug-ins:
+`http-ext` is a scalable, high flexible http client library. It's inspired by the `express`. Core only contains the basic framework. Other features and extensions can be expanded by plug-ins. Currently it contains the following plug-ins:
 
 * `http-ext-ntlm`
 
   Achieve the `NTLM` authentication protocol.
 
-The `basic` and `digest` authentication support plug-ins is coming soon.
+The `basic` and `digest` authentication-support plug-ins is coming soon.
 
 ## libxmljs-builder
 
-`libxmljs-builder` is XML build nodejs library. It's inspired by `Ruby` module `Nokogiri`。This library simplifies the tedious process of constructing XML and greatly improves the efficiency of programming.
+`libxmljs-builder` is a XML build nodejs library. It's inspired by `Ruby` module `Nokogiri`。This library simplifies the tedious process of constructing XML and greatly improves the efficiency of programming.
 
 ## Viewpoint
 
-  Nodejs module that archive `Exchange` mail API.
+  Nodejs module that implement `Exchange` mail API.
 
 ## sqlite-orm
 
-`sqlite-orm` is the ORM(object mapping model) library for sqlite. It dedicate to simplifying and optimizing the sqlite access. It inspires by the rails of `ActiveRecord`.
+`sqlite-orm` is the ORM(object mapping model) library for sqlite. It dedicates to simplifying and optimizing the `sqlite` access. It's inspired by the rails of `ActiveRecord`.
 
 ## Xmail
 
-`Xmail` is **The hackable mail client**。It develops upon the `Atom shell`. The project has achived the `Exchange` and `IMAP` mail protocol。
+`Xmail` is **The hackable mail client**。It develops upon the `Atom shell`. The project has achieved the `Exchange` and `IMAP` mail protocol。
 
 It has the following features：
 
 1. Use the latest HTML technology to develop UI，such as `Shadow DOM`(hide the details of UI element) and `registerElement`(define custom components)。
 2. Use `Coffee` and `Less` to program, use `Grunt` to achieve automate build and `jasmine` for BDD test.
-3. Encapsulate the UI component，utlize `React` library to write complex and efficient UI components and use **MVVM** pattern to deconple the model and the view.
-4. Use the model-driven pattern(not the traditional event-driven pattern) that make the UI and model flexible and unified.
+3. Encapsulate the UI component，utilize `React` library to write complex and efficient UI components and use **MVVM** pattern to decouple the model and the view.
+4. Use the model-driven pattern(not the traditional event-driven pattern) to make the UI and model flexible and unified.
 5. The code style is from the `Atom` that is clear and concise, also it has the high degree of modularity.
