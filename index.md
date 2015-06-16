@@ -37,7 +37,7 @@ layout: page
   The main responsibilities are:
 
   * Implement and test the `Exchange` protocol API.
-  * achieve the sqlite ORM that make the upper layer user more convenient and more Object-Oriented.
+  * Achieve the sqlite ORM that make the upper layer user more convenient and more Object-Oriented.
   * Optimize the message download speed and reduce the number of requests.
   * Reduce database reads count and improve performance by LRU cache algorithm.
   * Use `Promise/Yield` asynchronous programming model, to avoid nested callback.
