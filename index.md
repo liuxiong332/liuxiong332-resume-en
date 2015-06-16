@@ -12,7 +12,7 @@ layout: page
 * **Github**: [https://github.com/liuxiong332](https://github.com/liuxiong332)
 * **Mobile**: *18518723392*
 * **Email**: *liuxiong332@163.com*
-* **期望职位**: *NodeJS engineers, front-end engineer, backend engineer*
+* **Expected positions**: *NodeJS engineers, front-end engineer, backend engineer*
 
 ----
 
